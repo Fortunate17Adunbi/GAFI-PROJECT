@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    //background-color: gray;
+    //background-image: url('img/GAFI.png');
+    //background-repeat: no-repeat;
+    //background-size: scroll;
+    //background-position; center center;
+
+}
+body{
+    background-color: #121212;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #000;
+    //font-size: 60px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    //font-size: 50px;
+}
+.list li{
+    list-style-type: none;
+    //font-size: 20px;
+}
+
+.pt1{
+    letter-spacing: 5px;
+    font-size: 20px;
+    //background-color:#1e2121;
+    color: grey;
+    font-family: Lucida Handwriting;
+
+}
+.logo{
+    border: 4px black;
+    border-radius: 80px;
+    width: 150px;
+    height: 100;
+}
+
+
+.list a{
+    color: white;
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    background-color: black;
+    padding: 14px 16px;
+    
+   
+}
+.list a:hover:not(.active){
+    //background-color: #36093b;
+}
+.list li a.active{
+    border:1px solid white;
+    
+    border-radius: 4px;
+    padding: 5px;
+}
+.but{
+    background-color:#1004be;
+    border-radius: 5px;
+    padding:5px;
+    text-decoration: none;
+    color: #a39dfd;
+    list-style-type: none;
+    font-family: Courier New;
+}
+.but a:hover{
+    //background-color: #0000ff;
+    
+}
+img{
+    opacity: 0.5;
+}
+ul
+{
+    font-size: 30px;
+}
+footer{
+    text-align 
+}

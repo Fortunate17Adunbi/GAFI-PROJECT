@@ -1,0 +1,121 @@
+*{
+    color: ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    //background-color: #23126c;
+}
+.title
+{
+    font-size: 20px;
+    margin-top: 10px;
+    //color: #436;
+    font-family: Papyrus;
+
+}
+.container
+{
+    position: relative;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    margin: 500px;
+    margin-top: 20px;
+}
+.pt1{
+    letter-spacing: 5px;
+    font-size: 20px;
+    //background-color:#1e2121;
+    color: grey;
+    font-family: Lucida Handwriting;
+
+}
+.logo
+{
+    //height: 350px;
+    //width: 350px;
+    //background-image: url('img/GAFI.png');
+    //margin: auto;
+    
+    //box-sizing: border-box;
+    //box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #000;
+}
+.list{
+    
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.list li{
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+.list a{
+    color: white;
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    background-color: black;
+    padding: 14px 16px;
+    
+   
+}
+.but{
+    background-color:#1004be;
+    border-radius: 5px;
+    padding:5px;
+    text-decoration: none;
+    color: #a39dfd;
+    list-style-type: none;
+    
+}  
+input{
+    border-radius: 20px;
+    height: 30px;
+    height: 40px;
+    padding: 5px;
+}
+input radio{
+    //width:20px;
+    //height:20px;
+}
+button{
+    border-radius: 10px;
+    padding:5px;
+    margin-top: 10px;
+    margin-left: 60px;
+    
+}
+.sin
+{
+    backgr
+}
+.log
+{
+
+}
+.acc
+{
+    background-color: #3834ea;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+
