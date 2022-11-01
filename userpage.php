@@ -1,5 +1,5 @@
 <?php
-    session_start();
+	session_start();
 	if(!isset($_SESSION['username']))
 	{
 	 	header("location: yform.php");
@@ -10,10 +10,10 @@
 	// }
 
 	$con = mysqli_connect("localhost", "root", "", "gafi");
-    if($con->errno)
-    {
-        die($con->error);
-    }
+	if($con->errno)
+	{
+		die($con->error);
+	}
 
 
 	// if(!isset($_SESSION['username']))
@@ -33,50 +33,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
 	<link rel='stylesheet' href='userpage.css'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 </head>
 <body>
 
-    <!-- Top nav bar -->
-	<nav>
+	<!-- QUICK DESCRIPTION -->
+	<div class="animie">
+		<h1><span class="auto-type"></span></h1>
 		
-		<div class="nav">
+	</div>
 
+
+	<!-- Top nav bar -->
+	<header>
+		<div class="bar">
 			<!-- logo -->
-			<img src="img/GAFI.png" class="logo" alt="logo" >	<img src="icon/profile.png" class="profile" alt="Profile" style="float: right;">
+			<div>
+				<img src="img/GAFI.png" class="logo" alt="logo" >
+			</div>
 
-			<!-- icons  -->
-			<ul class="left">
-				<li><a href="index.php" class="" alt="Home page" id='home'><img src="icon/house.png" alt="Home"  class='icon' width="40%" height="40%"></a></li>
-				<li><a href="settings.html" alt='profile'><img src="icon/client.png" alt="Profile"  class="icon" width="40%" height="40%"></a></li>
-				<li><a href="message.php" alt='Chat'><img src="icon/message.png" alt="Chat" class="icon" width="40%" height="40%"></a></li>
-				<li class=""><a href="cart.php" alt="cart"><img src="icon/shopping-cart.png" alt="Add to cart" class="icon" width="40%" height="40%"></a></li>
-				<li class=""><a href="settings.html" alt="settings"><img src="icon/settings.png" alt="Settings"  class="icon" width="40%" height="40%"></a></li>
-				<a href='logout.php' alt='log out' class="log-out">log out</a>
+			<!-- middle -->
+			<div class="elem">
+				<a href="index.php" class="" alt="Home page" id='home'><img src="icon/home.png" alt="Home"  class='icon'></a>
+
+				<a href="message.php" alt='Chat'><img src="icon/live-chat.png" alt="Chat" class="icon"></a>
+				<a href="cart.php" alt="cart"><img src="icon/add-to-cart.png" alt="Add to cart" class="icon" ></a>
+				<a href='logout.php' alt='log out' class="icon" id="log-out">log out</a>
+				<img src="icon/user (4).png"  class="icon" alt="Profile" width='4%' height='4%'  >
+
 				
-						
-			</ul>
-		
+			</div>
 
-					
+			</div>
+
+			<!-- right -->
+			
 		</div>
+	</header>
+
+
+	<div class="slide-show">
+
+	</div>
+
+	
+	<div class="box-0">
+		<img src="" alt="">
 
 		
-	</nav>
+	</div>
+
 	
-	<div class="side"></div>
+		
+		
+		
+	
 
 
-
+		
 	
 	<div class="box-1">
 		
-	
-			
+		<!-- category description -->
+		<h1 class="cat-d"><a href="mencat.html" class="see-more">Men category</a></h1>	
 		
 		<img src="img/1 (1).jpg" alt="" width="200px" height="300px">
 		<img src="img/1 (2).jpg" alt="" width="200px" height="300px">
@@ -99,6 +123,11 @@
 		<button>Add To Cart</button>
 		<button>Add To Cart</button>
 	</div>
+
+	<div class="">
+		<p id="demo" class="down" style="margin-left: 100px;"></p>
+	</div>
+	
 
 
 
@@ -141,5 +170,35 @@
 
 		<a href="https://www.flaticon.com/free-icons/smart-cart" title="smart cart icons">Smart cart icons created by rukanicon - Flaticon</a>
 	-->
+
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script src="userpage.js"></script>
 </body>
 </html>
+
+<nav>
+		
+		<div class="nav">
+
+			<!-- logo -->
+				
+
+			<!-- icons  -->
+			<ul class="left">
+				<li class="first"></li>
+				
+				<li class="first"></li>
+				<li class="first"></li>
+				
+				
+				
+						
+			</ul>
+		
+
+					
+		</div>
+
+		
+	</nav>
