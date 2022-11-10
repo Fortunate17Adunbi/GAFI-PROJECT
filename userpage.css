@@ -55,7 +55,7 @@ body{
     width: 70%;
     padding: 14px 16px; */
     margin-left: 30px;
-    margin-top: 90px;
+    margin-top: 30px;
     position: relative;
     width: 900px;
     height: 490px;
@@ -64,6 +64,8 @@ body{
     box-sizing: border-box;
     background: white;
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #ecf0f3;
+
+  
 
     
     
@@ -81,7 +83,9 @@ button{
 .description{
     //margin-top: -90px;
 }
-
+.auto-type{
+    color: yellow;
+}
 #log-out{
    
     color: white;
@@ -133,7 +137,7 @@ button{
     
 }
 span{
-    color: #dod7cc;
+    //color: yellow;
     
 } 
 // Typing Animation Effect
@@ -175,3 +179,103 @@ header{
     background-color: #ecf0f3;
 
 }
+.slideshow-container {
+    background-color: black;
+    width: 900px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+  
+}
+
+//slideshow
+[data-component="slideshow"] .slide {
+    display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+    color: gray;
+    
+} 
+.down{
+    font-size: 25px;
+}
+.lgde{
+    text-align: center;
+}
+.social{
+    padding-right: 20px;
+    margin-left: 9px;
+    color: ;
+}
+.sode{
+    font-size: 25px;
+    //letter-spacing: 5px;
+    margin-left: 7px;
+    font-family: emoji;
+    width: 200px;
+
+  
+}
+.copy{
+    text-align: center;
+    font-family: cursive;
+    color: #903;
+}
+.wat{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+.reference{
+    margin-top: 0;
+    //padding-left: 250px; 
+}
+#reference{
+    text-align: center;
+    padding-left: 250px;
+    font-size: 30px;
+}
+.show{
+    margin-left: 450px;
+}
+.main-div{
+    margin-left: 30px;
+    margin-top: 10px;
+    position: relative;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecfbfc;
+    
+}
+
+        
+.btn {
+    display: none;
+    }
+
+    .over:hover .btn {
+    display: inline-block;
+    position: absolute;
+    }
+
+    .over:hover .note {
+    opacity: 0.5;
+    transition: 0.3s;
+    flex: 33.33%;
+    padding: 5px;
+    }
+    .vee{
+        display:  flex;
+    }

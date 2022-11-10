@@ -39,12 +39,22 @@
 	<title>Document</title>
 	<link rel='stylesheet' href='userpage.css'>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+	<style>
+    [data-component="slideshow"] .slide {
+      display: none;
+    }
+
+    [data-component="slideshow"] .slide.active {
+      display: block;
+    }
+  
+  </style>
 </head>
 <body>
 
 	<!-- QUICK DESCRIPTION -->
 	<div class="animie">
-		<h1><span class="auto-type"></span></h1>
+		<h1>Welcome to GAFI: <span class="auto-type"></span></h1>
 		
 	</div>
 
@@ -77,22 +87,35 @@
 	</header>
 
 
-	<div class="slide-show">
+	<div class="main-div">
+		<div class="category">
+			<!-- <ul>
+				<li>Men Category</li>
+				<li>Women Category</li>
+				<li>Children Category</li>
+				<li>Agbada</li>
+				<li>Dansaki</li>
+				<li>Casual</li>
+				<li></li>
+			</ul> -->
+		</div>
 
-	</div>
-
-	
-	<div class="box-0">
-		<img src="" alt="">
-
+		<div id="slideshow-example" data-component="slideshow">
+			<div role="list" class="show">
+				<div class="slide">
+					<img src="img/gafi2.jpeg" alt="" width="400px" height="400px">
+				</div>
+				<div class="slide">
+					<img src="img/GAFI.png" alt="" width="400px" height="400px">
+				</div>
+				<div class="slide">
+					<img src="img/1 (48).jpg" alt="" width="400px" height="400px">
+				</div>
+			</div>
+  		</div>
+	</div>	
 		
-	</div>
-
-	
-		
-		
-		
-	
+  	
 
 
 		
@@ -100,36 +123,133 @@
 	<div class="box-1">
 		
 		<!-- category description -->
-		<h1 class="cat-d"><a href="mencat.html" class="see-more">Men category</a></h1>	
+		<h1 class="cat-d"><a href="mencat.html" class="see-more">Casuals</a></h1>	
 		
-		<img src="img/1 (1).jpg" alt="" width="200px" height="300px">
-		<img src="img/1 (2).jpg" alt="" width="200px" height="300px">
-		<img src="img/1 (8).jpg" alt="" width="200px" height="300px">
-		<img src="img/1 (3).jpg" alt="" width="200px" height="300px"><br><br>
-		<button>Add To Cart</button>
-		<button>Add To Cart</button>
-		<button>Add To Cart</button>
-		<button>Add To Cart</button>
+		<img src="img/1 (1).jpg" alt="" width="200px" height="300px" class="clothes">
+		
+		<img src="img/1 (2).jpg" alt="" width="200px" height="300px" class="clothes">
+		
+		<img src="img/1 (8).jpg" alt="" width="200px" height="300px" class="clothes">
+		 
+		<img src="img/1 (3).jpg" alt="" width="200px" height="300px" class="clothes"><br><br>
+		
+	
+		<button class="hide">Add To Cart</button>
+		<button class="hide">Add To Cart</button>
+		<button class="hide">Add To Cart</button>
+		<button class="hide">Add To Cart</button>
+		<!--
+		-->
 
 	</div>
 
-	<div class="box-1 box-2">
-		<img src="img/1 (4).jpg" alt="" width="200px" height="300px">
-		<img src="img/1 (5).jpg" alt="" width="200px" height="300px">
-		<img src="img/1 (6).jpg" alt="" width="200px" height="300px">
-		<img src="img/1 (7).jpg" alt="" width="200px" height="300px"><br><br>
-		<button>Add To Cart</button>
-		<button>Add To Cart</button>
-		<button>Add To Cart</button>
-		<button>Add To Cart</button>
+	<div class="vee">
+
+		<!-- description -->
+		<h1 class="cat-d"><a href="mencat.html" class="see-more">Suits</a></h1>
+		<div class="over">
+			<img src="img/1 (4).jpg" alt="" width="200px" height="300px" class="note"><br>
+			<button class="btn">Add To Cart</button>
+		</div>
+		
+		<div class="over">
+			<img src="img/1 (12).jpg" alt="" width="200px" height="300px" class="note"><br>
+			<button class="btn">Add to cart</button>
+		</div>
+		
+		<div class="over">
+			<img src="img/1 (13).jpg" alt="" width="200px" height="300px" class="note"><br>
+			<button class="btn">Add to cart</button>
+		</div>
+		
+		<div class="over">
+			<img src="img/1 (9).jpg" alt="" width="200px" height="300px" class="note"><br>
+			<button class="btn">Add to cart</button>
+		</div>
+		
+
+	</div>
+
+	<div class="box-1">
+
+		<!-- discription -->
+		<h1 class="cat-d"><a href="mencat.html" class="see-more">Agbada</a></h1>
+		<img src="img/1 (10).jpeg" alt="" width="200px" height="300px" class="clothes">
+		<img src="img/1 (38).jpeg" alt="" width="200px" height="300px" class="clothes">
+		<img src="img/1 (41).jpeg" alt="" width="200px" height="300px" class="clothes">
+		<img src="img/1 (39).jpeg" alt="" width="200px" height="300px" class="clothes">
+		<button class="hide">Add To Cart</button>
+		<button class="hide">Add To Cart</button>
+		<button class="hide">Add To Cart</button>
+		<button class="hide">Add To Cart</button>
+
 	</div>
 
 	<div class="">
 		<p id="demo" class="down" style="margin-left: 100px;"></p>
 	</div>
+
+
+
 	
 
+    <footer>
 
+      <!-- logo and descrtiption -->
+      <div class="lgde">
+       <p class="down"><img src="img\GAFI.png" alt="GAFI" width="20%"></p>
+      </div>
+	
+	 
+
+		<div >
+
+
+
+			<div class="reference">
+				<span id="reference">Reference</span>
+				<ul style="width:10%; float:left;">
+					<li>About us</li>
+					<li>Report a problem</li>
+					<li>contact</li>
+				</ul>
+
+				<ul style="width:10%; float:left;">
+					<li>About us</li>
+					<li>Report a problem</li>
+					<li>contact</li>
+				</ul>
+			</div><br>
+
+			<div class="social">
+				<p class="sode">Follow us on our social media handles</p>
+
+				<!-- facebook -->
+				<a href="https://www.facebook.com/michael.adunbi"><img src="icon/facebook.png" alt="Facebook" width="5%"></a>
+
+				<!-- instagram -->
+				<a href="https://www.instagram.com/michaeladebayo627/"><img src="icon/instagram.png" alt="Instagram" width="5%"></a>
+
+				<!-- twitter -->
+				<a href="https://twitter.com/Michael80722231"><img src="icon/twitter.png" alt="Twitter" width="5%"></a>
+
+			</div>
+		
+			
+			
+			
+
+		</div><br>
+
+
+		<div class="wat">
+			<img src="icon\whatsapp (2).png" alt="What'sApp" width="4%"><span class="no">+2348149155926</span>
+		</div>
+
+		<div class="copy">
+			&copy; 2022 GAFI
+		</div>
+    </footer>
 
 
 
@@ -138,6 +258,7 @@
 	<!-- icon refrence -->
 
 	<!-- 
+		<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Freepik - Flaticon</a>
 		<a href="https://www.flaticon.com/free-icons/settings" title="settings icons">Settings icons created by Freepik - Flaticon</a>
 
 		<a href="https://www.flaticon.com/free-icons/account" title="account icons">Account icons created by SBTS2018 - Flaticon</a>
@@ -168,7 +289,15 @@
 
 		<a href="https://www.flaticon.com/free-icons/hold" title="hold icons">Hold icons created by lakonicon - Flaticon</a>
 
-		<a href="https://www.flaticon.com/free-icons/smart-cart" title="smart cart icons">Smart cart icons created by rukanicon - Flaticon</a>
+		<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Gregor Cresnar Premium - Flaticon</a>
+
+    <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Pixel perfect - Flaticon</a>
+		
+    <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Md Tanvirul Haque - Flaticon</a>
+
+    <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Ruslan Babkin - Flaticon</a>
+    
+    <a href="https://www.flaticon.com/free-icons/smart-cart" title="smart cart icons">Smart cart icons created by rukanicon - Flaticon</a>
 	-->
 
 
@@ -176,29 +305,3 @@
 	<script src="userpage.js"></script>
 </body>
 </html>
-
-<nav>
-		
-		<div class="nav">
-
-			<!-- logo -->
-				
-
-			<!-- icons  -->
-			<ul class="left">
-				<li class="first"></li>
-				
-				<li class="first"></li>
-				<li class="first"></li>
-				
-				
-				
-						
-			</ul>
-		
-
-					
-		</div>
-
-		
-	</nav>
