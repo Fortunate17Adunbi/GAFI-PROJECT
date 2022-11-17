@@ -20,8 +20,7 @@
 	// {
 	// 	header("location: login.php");
 	// }
-	
-	
+
 
 
 	
@@ -54,7 +53,7 @@
 
 	<!-- QUICK DESCRIPTION -->
 	<div class="animie">
-		<h1>Welcome to GAFI: <span class="auto-type"></span></h1>
+		<h1>Welcome to GAFI:WE <span class="auto-type"></span></h1>
 		
 	</div>
 
@@ -89,18 +88,19 @@
 
 	<div class="main-div">
 		<div class="category">
-			<!-- <ul>
+			<!-- DEALS AND COLLECTION -->
+			<ul >
 				<li>Men Category</li>
 				<li>Women Category</li>
 				<li>Children Category</li>
-				<li>Agbada</li>
-				<li>Dansaki</li>
+				<li>Unisex</li>
+				<li>Shoe collection</li>
 				<li>Casual</li>
 				<li></li>
-			</ul> -->
+			</ul> 
 		</div>
 
-		<div id="slideshow-example" data-component="slideshow">
+		<div id="slideshow-example" data-component="slideshow" class="olo">
 			<div role="list" class="show">
 				<div class="slide">
 					<img src="img/gafi2.jpeg" alt="" width="400px" height="400px">
@@ -124,20 +124,33 @@
 		
 		<!-- category description -->
 		<h1 class="cat-d"><a href="mencat.html" class="see-more">Casuals</a></h1>	
-		
-		<img src="img/1 (1).jpg" alt="" width="200px" height="300px" class="clothes">
-		
-		<img src="img/1 (2).jpg" alt="" width="200px" height="300px" class="clothes">
-		
-		<img src="img/1 (8).jpg" alt="" width="200px" height="300px" class="clothes">
-		 
-		<img src="img/1 (3).jpg" alt="" width="200px" height="300px" class="clothes"><br><br>
-		
+		<div class="straight-image">
+
+			<div class="over">
+				<img src="img/1 (19).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+			
+			<div class="over">
+				<img src="img/1 (2).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+			
+			<div class="over">
+				<img src="img/1 (8).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+			
+			<div class="over">
+				<img src="img/1 (1).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+			
+			
+		</div>
 	
-		<button class="hide">Add To Cart</button>
-		<button class="hide">Add To Cart</button>
-		<button class="hide">Add To Cart</button>
-		<button class="hide">Add To Cart</button>
+		
+
 		<!--
 		-->
 
@@ -146,25 +159,34 @@
 	<div class="vee">
 
 		<!-- description -->
-		<h1 class="cat-d"><a href="mencat.html" class="see-more">Suits</a></h1>
-		<div class="over">
-			<img src="img/1 (4).jpg" alt="" width="200px" height="300px" class="note"><br>
-			<button class="btn">Add To Cart</button>
+		<div>
+			<h1 class="cat-d"><a href="mencat.html" class="see-more">Suits</a></h1>
 		</div>
-		
-		<div class="over">
-			<img src="img/1 (12).jpg" alt="" width="200px" height="300px" class="note"><br>
-			<button class="btn">Add to cart</button>
-		</div>
-		
-		<div class="over">
-			<img src="img/1 (13).jpg" alt="" width="200px" height="300px" class="note"><br>
-			<button class="btn">Add to cart</button>
-		</div>
-		
-		<div class="over">
-			<img src="img/1 (9).jpg" alt="" width="200px" height="300px" class="note"><br>
-			<button class="btn">Add to cart</button>
+		<div class="straight-image">
+			<div class="over">
+				<form action="cart.php" method="post">
+					<input type="image" src="img/1 (4).jpg" alt="" class="note" name="add" width="150px" height="200px"><br>
+					<button class="ano" type="submit" name="submit">Add To Cart</button>
+				</form>
+					
+			</div>
+			
+					
+			<div class="over">
+				<img src="img/1 (12).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+					
+			<div class="over">
+				<img src="img/1 (13).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+					
+			<div class="over">
+				<img src="img/1 (9).jpg" alt="" width="200px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+					
 		</div>
 		
 
@@ -174,15 +196,31 @@
 
 		<!-- discription -->
 		<h1 class="cat-d"><a href="mencat.html" class="see-more">Agbada</a></h1>
-		<img src="img/1 (10).jpeg" alt="" width="200px" height="300px" class="clothes">
-		<img src="img/1 (38).jpeg" alt="" width="200px" height="300px" class="clothes">
-		<img src="img/1 (41).jpeg" alt="" width="200px" height="300px" class="clothes">
-		<img src="img/1 (39).jpeg" alt="" width="200px" height="300px" class="clothes">
-		<button class="hide">Add To Cart</button>
-		<button class="hide">Add To Cart</button>
-		<button class="hide">Add To Cart</button>
-		<button class="hide">Add To Cart</button>
 
+		<div class="straight-image">
+
+			<div class="over">
+				<img src="img/1 (10).jpeg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+			
+			<div class="over">
+				<img src="img/1 (38).jpeg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+		
+			<div class="over">
+				<img src="img/1 (41).jpeg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+			
+			<div class="over">
+				<img src="img/1 (39).jpeg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+			
+			
+		</div>
 	</div>
 
 	<div class="">
@@ -214,7 +252,7 @@
 					<li>contact</li>
 				</ul>
 
-				<ul style="width:10%; float:left;">
+				<ul style="width:10%; float:right;">
 					<li>About us</li>
 					<li>Report a problem</li>
 					<li>contact</li>

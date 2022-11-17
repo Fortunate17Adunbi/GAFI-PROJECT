@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-type", {
-    strings: ["WE Sew", " We design", "We Style", "This is GAFI"],
+    strings: ["Sew", "Sell", "We design", "Style", "Customize", "Brand", "Advice on Fashion", "Deal in Fashion"],
     typeSpeed: 150,
     backSpeed: 150,
     loop: true
