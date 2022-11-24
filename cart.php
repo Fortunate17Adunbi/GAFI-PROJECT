@@ -1,54 +1,29 @@
 <?php 
-
-
-    //"<link rel='stylesheet' href='style.css'>";
-
     $con = mysqli_connect("localhost", "root", "", "gafi");
-
-    	
-	if(isset($_POST['submit'])){
-
-        $image = $_GET['add'];
-
-        if($con->errno)
-        {
-            die($con->error);
-        }
-
-        
-		
-        $query = "INSERT INTO add_to_cart
-        VALUES(null,'$image')";
-		$result = $con -> query($query);
-		// var_dump("$result");exit
-
-		if($result)
-        {
-            header("location:cart.php");
-            
-        }
-		else{
-			echo "<script>";
-			echo "alert('unsuccessful');";
-			echo "</script>";
-
-		}
+    if($con->errno)
+    {
+        die($con->error);
     }
-
-
-    
+    //Getting all data from add_to_cart
+    $query = "SELECT * FROM add_to_cart";
+    $result = $con->query($query);
+    //var_dump($result2);
+    //exit;
+    if($result->num_rows > 0)
+    {  
+        while($row = $result->fetch_object())
+        {
+            //var_dump($row);
+            echo "<br>";
+            echo "<img src='$row->image' width='20%'>";
+            echo "<br>";   
+        }
+    }
  
     
 
 
-  $sql = "SELECT  FROM all_clothes";
-  $result = mysqli_query("$con", "$sql");
-  $row = mysql_fetch_assoc($result);
-  mysql_close($con);
-
-  header("Content-type: image/jpeg");
-  echo $row['content'];
-
+ 
 
    
 

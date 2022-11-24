@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #000;
+    background-color: #f8fcfe;
 }
 .first{
     display: inline;
@@ -70,7 +70,10 @@ body{
 }
 .see-more{
     text-decoration: none;
-    font-size: 25px;
+    //font-size: 25px;
+    //padding-top: 20px;
+    font-size: 30px;
+    color: black;
 }
 .box-1{
     /* background-color: #930;
@@ -83,17 +86,40 @@ body{
     margin-top: 30px;
     position: relative;
     width: 900px;
-    height: 490px;
+    height: 300px;
     border-radius: 10px;
-    padding: 40px;
+    //padding: 40px;
     box-sizing: border-box;
     background: white;
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #ecf0f3;
-
+    flex-wrap: wrap;
+    //box-sizing: border-box;
+    max-width: 950px;
   
 
     
     
+}
+.des{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 35px;
+    background-color:  #7c8dd4;
+    border-radius: 5px;
+}
+.des2{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 35px;
+    background-color:  #daf0fe;
+    border-radius: 5px;
+}
+.des3{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 35px;
+    background-color:  #c5823a;
+    border-radius: 5px;
 }
 button{
     width: 200px;
@@ -134,7 +160,7 @@ button{
 }
 .side{
     margin-left: ;
-    padding0-left: 8px;
+    padding-left: 8px;
     //margin-top: 50px;
     //position: ;
     background-color: white;
@@ -188,8 +214,6 @@ span{
     margin-left: 8px;
     animation: blink .6s linear infinite alternate;
 } */
-
-//anothe3r animation
 header{
     position: sticky;
     background-color: white;
@@ -197,10 +221,9 @@ header{
 
    
 }
-
 .bar{
    // margin-top: 20px;
-    background-color: #fff;
+    //background-color: #fff;
     text-align: center;
     background-color: #ecf0f3;
 
@@ -214,32 +237,18 @@ header{
     border-radius: 10px;
   
 }
-
 //slideshow
 [data-component="slideshow"] .slide {
     display: none;
 }
-
 [data-component="slideshow"] .slide.active {
     display: block;
 }
-
-footer{
-    background-color: gray;
-    height: 600px;
-    color: black;
-    
-} 
 .down{
     font-size: 25px;
 }
 .lgde{
     text-align: center;
-}
-.social{
-    padding-right: 20px;
-    margin-left: 9px;
-    color: ;
 }
 .sode{
     font-size: 25px;
@@ -256,19 +265,10 @@ footer{
     color: #903;
 }
 .wat{
-    text-align: center;
+    text-align: ;
 }
 li{
     list-style-type: none;
-}
-.reference{
-    margin-top: 0;
-    //padding-left: 250px; 
-}
-#reference{
-    text-align: center;
-    padding-left: 250px;
-    font-size: 30px;
 }
 .show{
     margin-left: 0;
@@ -282,22 +282,26 @@ li{
     border-radius: 10px;
     //padding: 40px;
     box-sizing: border-box;
-    //background: #ecfbfc;
+    background: #ecfbfc;
     display:  flex;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bold;
 
     
-}
-
-        
+}     
 .ano {
     display: none;
+    background-color: #ea9715;
+    border-color: #efc110;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
 }
-
 .over:hover .ano {
     display: inline-block;
     position: absolute;
 }
-
 .over:hover .note {
     opacity: 0.5;
     transition: 0.3s;
@@ -316,13 +320,26 @@ li{
     box-sizing: border-box;
     background: white;
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #ecf0f3;
-    img {float: left;};
+    //img {float: left;};
 }
 .straight-image{
     display:  flex;
-    align-items: center
+    //align-items: left;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 950px;
 }
 .over{
-    padding-top: 50px;
+    padding-top: 5px;
     padding-left: 5px;
+    
+}
+footer{
+    
+
+} 
+.tail
+{
+
 }
