@@ -127,22 +127,32 @@
 		<div class="straight-image">
 
 			<div class="over">
-				<img src="img/1 (19).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<img src="casuals/1 (9).jpg" alt="" width="150px" height="200px" class="note"><br>
 				<button class="ano" type="submit" name="submit">Add To Cart</button>
 			</div>
 			
 			<div class="over">
-				<img src="img/1 (2).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<img src="casuals/1 (2).jpg" alt="" width="150px" height="200px" class="note"><br>
 				<button class="ano" type="submit" name="submit">Add To Cart</button>
 			</div>
 			
 			<div class="over">
-				<img src="img/1 (8).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<img src="casuals/1 (3).jpg" alt="" width="150px" height="200px" class="note"><br>
 				<button class="ano" type="submit" name="submit">Add To Cart</button>
 			</div>
 			
 			<div class="over">
-				<img src="img/1 (1).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<img src="casuals/1 (1).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+
+			<div class="over">
+				<img src="casuals/1 (12).jpg" alt="" width="150px" height="200px" class="note"><br>
+				<button class="ano" type="submit" name="submit">Add To Cart</button>
+			</div>
+
+			<div class="over">
+				<img src="casuals/1 (13).jpg" alt="" width="150px" height="200px" class="note"><br>
 				<button class="ano" type="submit" name="submit">Add To Cart</button>
 			</div>
 			
